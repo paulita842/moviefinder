@@ -48,6 +48,36 @@ const App = () => {
       name:'titanic',
       image: require('./src/assets/titanic.jpeg')
      },
+     {
+      id:9,
+      name:'aladdin',
+      image: require('./src/assets/aladdin.jpeg')
+     },
+     {
+      id:10,
+      name:'avatar',
+      image: require('./src/assets/avatar.jpeg')
+     },
+     {
+      id:11,
+      name:'barbie',
+      image: require('./src/assets/barbie.jpeg')
+     },
+     {
+      id:12,
+      name:'capitana',
+      image: require('./src/assets/capitana.jpeg')
+     },
+     {
+      id:13,
+      name:'deapooll',
+      image: require('./src/assets/deapool.jpeg')
+     },
+     {
+      id:14,
+      name:'increibles',
+      image: require('./src/assets/increibles.jpeg')
+     },
     ]
 
     const moviesFiltered = moviesList.filter(item => item.name.toLowerCase().includes(movieName))
