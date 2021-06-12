@@ -78,6 +78,12 @@ const App = () => {
       name:'increibles',
       image: require('./src/assets/increibles.jpeg')
      },
+     {
+      id:15,
+      name:'iroman',
+      image: require('./src/assets/iroman.jpeg')
+     },
+    
     ]
 
     const moviesFiltered = moviesList.filter(item => item.name.toLowerCase().includes(movieName))
